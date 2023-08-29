@@ -1,0 +1,12 @@
+/*
+* Essa configuração fará com que o jest possa reconhecer os decorators
+* do class-validator
+*/
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true
+    }
+  }
+}

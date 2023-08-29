@@ -1,4 +1,4 @@
-import InvalidUUIDError from '../../../@shared/errors/invalid-uuid.error';
+import InvalidUUIDError from '../errors/invalid-uuid.error';
 import { v4 as uuid, validate as uuidValidate } from 'uuid';
 import { ValueObject } from './value-object';
 

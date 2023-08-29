@@ -1,4 +1,4 @@
-import InvalidUUIDError from "../../../../@shared/errors/invalid-uuid.error";
+import InvalidUUIDError from "../../errors/invalid-uuid.error";
 import UniqueEntityId from "../unique-entity-id";
 
 /* function spyValidateMethod() {
